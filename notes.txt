@@ -1,0 +1,8 @@
+jake-cyr\a-node-sql
+git init
+touch notes.txt
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gundars-o/node-sql.git
+git push -u origin main
