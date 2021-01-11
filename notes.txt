@@ -25,3 +25,11 @@ npm init -y
 git add .
 git commit -m "second commit"
 git push
+
+branch main
+npm i --save prohairesis
+Paste CLEARDB_DATABASE_URL in .env
+npm i --save dotenv
+git add .
+git commit -m "Define database"
+git push
