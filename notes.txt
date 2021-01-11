@@ -67,3 +67,17 @@ OkPacket {
 git add .
 git commit -m "Create record"
 git push
+
+branch main
+node app
+Result:
+[
+  RowDataPacket {
+    username: 'jake',
+    password: '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8',
+    date_added: 2021-01-11T13:16:09.000Z
+  }
+]
+git add .
+git commit -m "Display created table"
+git push
