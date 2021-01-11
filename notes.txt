@@ -81,3 +81,10 @@ Result:
 git add .
 git commit -m "Display created table"
 git push
+
+branch main
+npm i --save express
+npm i --save body-parser morgan
+git add .
+git commit -m "Added routes for creating a new user, login user and administration."
+git push
