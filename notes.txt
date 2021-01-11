@@ -33,3 +33,20 @@ npm i --save dotenv
 git add .
 git commit -m "Define database"
 git push
+
+branch main
+node app
+Result:
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0
+}
+git add .
+git commit -m "Create table"
+git push
