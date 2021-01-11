@@ -6,3 +6,22 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/gundars-o/node-sql.git
 git push -u origin main
+
+branch main
+Heroku
+New App
+gundars-sql
+Create app
+Resources
+Search for "ClearDB MySQL" in "Add-ons".
+Plan name: Ignite - Free
+Submit Order Form
+Assign credit card.
+Submit Order Form
+Settings
+Reveal Config Vars
+Copy CLEARDB_DATABASE_URL
+npm init -y
+git add .
+git commit -m "second commit"
+git push
